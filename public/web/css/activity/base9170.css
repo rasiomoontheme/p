@@ -1,0 +1,63 @@
+:root{
+    --mainColor:#312112;
+    --bgUrl:url(/web/images/activity/con1.jpg)
+}
+.head-cen {
+    background:var(--mainColor);
+}
+
+#main {
+    padding-bottom: 20px;
+    clear: both;
+    background: #06070d;
+    background: var(--mainColor) var(--bgUrl) center 42px no-repeat;
+}
+
+.newSection {
+    margin: 0 0 28px;
+    height: 40px;
+    padding: 0 15px;
+    position: relative;
+    background-color: var(--mainColor);
+}
+
+.bgBox {
+    width: 1010px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #eece87;
+    background: var(--mainColor);
+    margin-top: 18px;
+}
+
+#footer.footer-sm {
+    padding: 10px 0;
+    background-color: var(--mainColor);
+    border-top: 1px solid #503a3a;
+    padding-top: 0;
+}
+
+.activity-ul li {
+    background: #422b25;
+}
+
+.reveal-fr {
+    width: 360px;
+    height: 172px;
+    border: 1px solid #eece87;
+    background: var(--mainColor);
+}
+
+.activity-det-bg {
+    background: #271815 var(--bgUrl) center 42px no-repeat;
+}
+.box_2 {
+    background: var(--mainColor);
+}
+.box_2-s {
+    background: var(--mainColor);
+}
+.nav-links{
+    background: var(--mainColor);
+}
+.rdao2{background: url(/web/images/activity/phone1.png) no-repeat center top;}

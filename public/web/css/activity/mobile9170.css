@@ -1,0 +1,16 @@
+body{
+  background-color: #312112;
+}
+.detail .des{
+  background: #312112;
+}
+.header{
+  background: #312112 no-repeat center 0;
+}
+.header .logo {
+  background: url(/web/images/activity/9170logo.png) no-repeat center / 100% 100%;
+}
+img{
+  width: 100% !important;
+  height: auto;
+}

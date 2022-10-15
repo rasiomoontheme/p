@@ -1,0 +1,33 @@
+body{
+    background-color: #312112;
+}
+.top .logo {
+    background: url(/web/images/activity/9170logo.png) no-repeat center / 100% 100%;
+}
+.top{
+    background: #312112;
+}
+.newlist {
+    background: #312112;
+}
+.footer {
+    background: #312112;
+}
+.tccon {
+    background: #312112;
+}
+.iconfont1{
+    color: #e6d77c;
+}
+.bottom ul li p{
+    color: #e6d77c;
+}
+.bottom ul li{
+    background: #333;
+}
+.bottom ul li.li2{
+    background: #333;
+}
+.bottom ul li .iconfont{
+    color: #e6d77c;
+}

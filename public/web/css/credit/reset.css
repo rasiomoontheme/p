@@ -1,0 +1,218 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+}
+img{ border:0;}
+
+input,textarea:focus {outline: none;}
+
+*{margin:0; padding:0; list-style:none; }
+.img-responsive{ width:100%;}
+/**
+* 中文小于 12px 可读性很差
+* 1. 统一 IE 6-7 中字体大小
+* 2. 统一 Firefox 4+，Safari 5 和 Chrome 中「section」和「article」内的字体大小
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 12px;
+}
+/* 清除浮 动*/
+.fix {
+    *zoom: 1;
+}
+
+.fix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+}
+
+
+/************定位***********/
+.po-r{ position: relative;}
+.po-a{ position: absolute;}
+.po-f{ position: fixed;}
+
+
+/************左右浮动***********/
+.fl { float: left; }
+.fr { float: right; }
+
+/*
+*@ Name:       CSS 三角形组件
+*@ Author:     一丝
+*@ Usage:
+*/
+.arrow {
+  font-size: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: -2px;
+  border: 0 dashed transparent;
+  border-width: 6px;
+}
+
+.arrow-top {
+  border-bottom-style: solid;
+  border-bottom-color: #2ab2df;
+}
+
+.arrow-bottom {
+  border-top-style: solid;
+  border-top-color: #2ab2df;
+}
+
+.arrow-left {
+  border-right-style: solid;
+  border-right-color: #2ab2df;
+}
+
+.arrow-right {
+  border-left-style: solid;
+  border-left-color: #2ab2df;
+}
+
+/* ◤左上角 */
+.arrow-left-top {
+  border-top-style: solid;
+  border-top-color: #2ab2df;
+  border-left-width: 0 !important;
+}
+
+/* ◥右上角 */
+.arrow-right-top {
+  border-top-style: solid;
+  border-top-color: #2ab2df;
+  border-right-width: 0 !important;
+}
+
+/* ◣左下角 */
+.arrow-left-bottom {
+  border-bottom-style: solid;
+  border-bottom-color: #2ab2df;
+  border-left-width: 0 !important;
+}
+
+/* ◢右下角 */
+.arrow-right-bottom {
+  border-bottom-style: solid;
+  border-bottom-color: #2ab2df;
+  border-right-width: 0 !important;
+}
+
+/* for html5 all transition */
+*:link, *:visited, *:hover, *:active, *:focus{
+-webkit-transition:color .25s linear,background-color .25s linear,border-color .25s linear;
+transition:color .25s linear,background-color .25s linear,border-color .25s linear;}
+
+/**************宽度**************/
+.w-100p{ width: 100%;}
+.w-95p{ width: 95%;}
+.w-90p{ width: 90%;}
+.w-85p{ width: 85%;}
+.w-80p{ width: 80%;}
+.w-75p{ width: 75%;}
+.w-70p{ width: 70%;}
+.w-65p{ width: 65%;}
+.w-60p{ width: 60%;}
+.w-55p{ width: 55%;}
+.w-50p{ width: 50%;}
+.w-45p{ width: 45%;}
+.w-40p{ width: 40%;}
+.w-35p{ width: 35%;}
+.w-33p{ width: 33.33%;}
+.w-30p{ width: 30%;}
+.w-25p{ width: 25%;}
+.w-20p{ width: 20%;}
+.w-15p{ width: 15%;}
+.w-10p{ width: 10%;}
+.w-5p{ width: 5%;}
+
+/*********栅格**********/
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 { float: left; }
+.col-12 { width: 100%; }
+.col-11 { width: 91.66666667%; }
+.col-10 { width: 83.33333333%; }
+.col-9 { width: 75%; }
+.col-8 { width: 66.66666667%; }
+.col-7 { width: 58.33333333%; }
+.col-6 { width: 50%; }
+.col-5 { width: 41.66666667%; }
+.col-4 { width: 33.33333333%; }
+.col-3 { width: 25%; }
+.col-2 { width: 16.66666667%; }
+.col-1 { width: 8.33333333%; }
+
+/*# sourceMappingURL=cube.css.map */

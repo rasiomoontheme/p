@@ -1,0 +1,37 @@
+/*消息框*/
+.dialog {position:fixed;_position:absolute;top:50%;left:50%;margin-left:-372px;margin-top:-292px;padding:0;border-radius:2px;animation-fill-mode:both;animation-duration:.3s;z-index:99999;background:none;display:none;}
+.dialog-container {width:743px;height:494px;display:block;position:relative;background:#131629;border:3px solid #eece87;border-radius:8px;overflow:hidden;}
+.dialog .closebtn {position:absolute;background:url(/web/images/activity/closebtn.png) no-repeat;width:64px;height:64px;right:-4px;top:-4px;display:block;cursor:pointer;}
+.dialog .dialog-container > .title {color:#fdfd73;font-size:24px;margin-top:26px;text-align:center;line-height:25px;margin-bottom:30px;}
+.dialog .content {height:400px;overflow-y:auto;width:724px;border-top:1px solid #333;margin:0 auto;}
+.dialog .content::-webkit-scrollbar {width:6px;height:6px;background-color:#373737;}
+.dialog .content::-webkit-scrollbar-track {background-color:#000000;}
+.dialog .content::-webkit-scrollbar-thumb {background-color:#666;}
+.dialog .content::-webkit-scrollbar-thumb:hover {background-color:#999;}
+.dialog .content::-webkit-scrollbar-thumb:active {background-color:#666;}
+.dialog .content .warp {padding:10px;}
+.animate-enter .bounceInDown {-webkit-animation-name:bounceInDown;animation-name:bounceInDown;z-index: 999;}
+.animate-enter {display:block;}
+
+.notice {background:url(/web/images/activity/noteline.png) 60px center repeat-y;}
+.notice .note {min-height:60px;padding:10px 0 10px 60px;cursor:pointer;position:relative;}
+.notice .note .note-title {font-size:14px;color:#f8e978;line-height:12px;margin-bottom:10px;font-family:Helvetica,arial;text-shadow:1px 1px #000000;}
+.notice .note .notes {padding-bottom:10px;border-bottom:1px dashed #4a4a4a;}
+.notice .note p {margin:0;color:#999;line-height:20px;font-family:simsun;font-size:12px;text-shadow:1px 1px #000000;}
+.notice .ellipse {background:url(/web/images/activity/ellipse.png);width:11px;height:11px;float:left;margin:0 20px 0 0;float:left;}
+.notice .note-details {font-size:14px;color:#ccc;line-height:20px;padding-left:32px;}
+.notice .date {position:absolute;left:0px;top:10px;width:50px;height:50px;background:#F5C60C url(/web/images/activity/bk4.png) no-repeat;text-align:center;color:#202020;font-weight:bold;}
+.notice .date span {font-size:18px;display:block;line-height:30px;}
+.notice .date b {font-family:Arial;font-weight:400;border-top:1px solid #202020;font-size:13px;padding-top:2px;}
+/*消息弹出框*/
+.alertify * {margin:0;padding:0;}
+.alertify {border:0 none;background:#F7F7F7;box-shadow:0 3px 3px rgba(195,154,58,0.3);-webkit-background-clip:padding;-moz-background-clip:padding;background-clip:padding-box;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;position:fixed;z-index:1100;top:32%;left:50%;width:550px;margin-left:-275px;padding:32px  0px;overflow:hidden;padding-top:0;}
+.alertify p {font-size:14px;color:#666;line-height:24px;}
+.alertify > h5 {text-align:center;font-size:16px;color:#EE8218;height:40px;line-height:40px;background:#E6E6E6;border-bottom:1px solid #D4D4D4;position:relative;text-align:left;padding-left:14px;}
+.alertify > h5 a {float:right;font-size:20px;color:#333;position:absolute;right:6px;font-weight:normal;padding:0 12px;}
+.alertify > h5 a:hover {color:#f82818;}
+.alertify p {font-size:14px;color:#666;line-height:24px;padding:14px;}
+.alertify h4 span {width:60px;height:34px;line-height:34px;color:#1C1C1C;text-align:center;display:block;margin:0 auto;background:#FFCF0D;border-radius:3px;margin-top:6px;}
+.alertify h4 span:hover {cursor:pointer;opacity:0.8;}
+.animate-enter.alertify {display:block;}
+

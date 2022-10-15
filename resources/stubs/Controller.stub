@@ -1,0 +1,31 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\Controller;
+use App\Models\{{-$model_uc_first-}};
+use Illuminate\Http\Request;
+use Illuminate\Validation\Rule;
+
+class {{-$model_plural_uc_first-}}Controller extends AdminBaseController
+{
+    protected $create_field = [{{--$fields--}}];
+    protected $update_field = [{{--$fields--}}];
+
+    public function __construct({{-$model_uc_first-}} $model){
+        $this->model = $model;
+        parent::__construct();
+    }
+
+    public function edit({{-$model_uc_first-}} ${{-$model_lower-}}){
+        return view($this->getEditViewName(),["model" => ${{-$model_lower-}}]);
+    }
+
+    public function storeRule(){
+        {{--$code--}}
+    }
+
+    public function updateRule($id){
+        {{--$code--}}
+    }
+}

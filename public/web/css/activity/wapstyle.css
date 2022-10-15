@@ -1,0 +1,473 @@
+body {
+    background: #fff;
+    font-family: "Microsoft YaHei";
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    background: #111111;
+    width: 7.5rem;
+    margin: 0 auto;
+}
+
+.top {
+    height: 0.9rem;
+    width: 7.5rem;
+    background: #1a1a1a;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.top .logo {
+    display: block;
+    width: 6rem;
+    height: 0.9rem;
+    background: url(/web/images/activity/logo.png) no-repeat center / 100% 100%;
+    background-size: cover;
+    margin: 0 18px;
+}
+
+.top .query {
+    position: absolute;
+    right: 0.3rem;
+    top: 0.2rem;
+    color: #c24b4b;
+    font-size: 0.5rem;
+}
+
+.noticelist {
+    height: 0.84rem;
+    background: #1e1e1f;
+    margin-top: 0.9rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.noticelist > span {
+    position: absolute;
+    left: 0.3rem;
+    top: 0.24rem;
+    font-size: 0.37rem;
+    color: #d03f3f;
+}
+
+.noticelist ul {
+    text-align: left;
+    margin-left: 0.8rem;
+}
+
+.noticelist li {
+    height: 0.84rem;
+    line-height: 0.84rem;
+    width: 100%;
+    font-size: 0.28rem;
+    color: #ffe9c5;
+    overflow: hidden;
+}
+
+.noticelist li em {
+    font-style: normal;
+    margin: 0 0.08rem;
+    color: #fff;
+}
+
+.noticelist li i {
+    font-style: normal;
+    margin: 0 0.08rem;
+    color: #ffe51a;
+}
+
+.newlist {
+    padding-top: 0.32rem;
+    background: #1a1a1a;
+}
+
+.newlist ul li {
+    float: left;
+    width: 3rem;
+    height: 1.6rem;
+    margin-left: 0.5rem;
+    border-radius: 0.04rem;
+    margin-bottom: 0.3rem;
+    background: #ffffff;
+}
+
+.newlist ul li img {
+    width: 3rem;
+    height: 1.6rem;
+    display: block;
+    overflow: hidden;
+}
+
+.newlist ul li a {
+    text-align: center;
+    display: block;
+    width: 3rem;
+    height: 1.85rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.newlist ul li p {
+    line-height: 0.44rem;
+    height: 0.44rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #ffd053;
+    font-size: 0.16rem;
+    position: absolute;
+    bottom: 4px;
+    width: 3rem;
+    text-align: center;
+    background-color: rgba(41, 37, 40, 0.8);
+}
+
+.footer {
+    text-align: center;
+    color: #535353;
+    font-size: 0.2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    background: #1c1611;
+}
+
+.footer p {
+    margin-bottom: 0.1rem;
+}
+
+.footer .gopc {
+    color: #535353;
+    font-size: 0.18rem;
+}
+
+.bottom {
+    height: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 7.5rem;
+    left: 50%;
+    margin-left: -3.75rem;
+    background: #f7f7f7;
+}
+
+.bottom ul li {
+    float: left;
+    /*width: 25%;*/
+    width: 33.3%;
+    text-align: center;
+}
+
+.bottom ul li a {
+    display: block;
+    height: 1rem;
+    overflow: hidden;
+}
+
+.bottom ul li .iconfont {
+    display: block;
+    font-size: 0.4rem;
+    color: #c24b4b;
+    margin: 0 auto;
+    margin-top: 0.16rem;
+}
+
+.bottom ul li p {
+    line-height: 0.36rem;
+    color: #323847;
+    font-size: 0.22rem;
+}
+
+.bottom ul li.li2 {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tccon {
+    background: #1a1a1a;
+    width: 6.4rem;
+    height: auto;
+    padding: 0.42rem 0;
+    border-radius: 0.04rem;
+    /*display: none;*/
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.tccon h2 {
+    color: #fff032;
+    font-size: 0.28rem;
+    text-align: center;
+    background: url(/web/images/activity/tctitle.png) no-repeat;
+    background-size: cover;
+    width: 3.98rem;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    margin: 0 auto;
+}
+
+.tccon .tctitle {
+    text-align: center;
+    font-weight: bold;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    overflow: hidden;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.tccon .tctitle a {
+    color: #fff;
+    font-size: 0.28rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    display: block;
+}
+
+.tccon .tctitle a span {
+    background: url(/web/images/activity/go.png) no-repeat;
+    background-size: cover;
+    width: 0.38rem;
+    height: 0.38rem;
+    margin-left: 0.1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tccon p {
+    line-height: 0.7rem;
+    height: 0.7rem;
+    margin-left: 0.48rem;
+    margin-bottom: 0.3rem;
+}
+
+.tccon p input {
+    width: 5.13rem;
+    height: 0.7rem;
+    border: none;
+    border-radius: 0.1rem;
+    background: #fff;
+    text-align: left;
+    color: #1e1e1f;
+    font-size: 0.28rem;
+    padding-left: 0.24rem;
+    display: block;
+    float: left;
+}
+
+.tccon p input::-webkit-input-placeholder {
+    color: #1e1e1f;
+}
+
+.tccon p input::-moz-placeholder {
+    color: #1e1e1f;
+    opacity: 1;
+}
+
+.tccon p input:-moz-placeholder {
+    color: #1e1e1f;
+    opacity: 1;
+}
+
+.tccon p .yzmimg {
+    position: relative;
+    margin-left: -1rem;
+    width: 0.86rem;
+    height: 0.5rem;
+    position: relative;
+    top: 0.12rem;
+}
+
+.tccon p select {
+    width: 5.37rem;
+    height: 0.7rem;
+    color: #1e1e1f;
+    font-size: 0.28rem;
+    padding-left: 0.24rem;
+    border: none;
+    border-radius: 0.1rem;
+    display: block;
+}
+
+.tccon p select option {
+}
+
+.tccon .subbtn {
+    background: url(/web/images/activity/subbtn.png) no-repeat;
+    background-size: cover;
+    width: 5.36rem;
+    height: 0.71rem;
+    line-height: 0.71rem;
+    cursor: pointer;
+    color: #000;
+    font-size: 0.28rem;
+    text-align: center;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.closebtn {
+    background: url(/web/images/activity/close.png) no-repeat;
+    background-size: cover;
+    width: 0.5rem;
+    height: 0.5rem;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: block;
+    cursor: pointer;
+}
+
+.querycon {
+    min-height: 3rem;
+}
+
+.querycon h2 {
+    margin-bottom: 0.2rem;
+}
+
+.tccon .pages {
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    text-align: center;
+}
+
+.tccon .pages a {
+    display: inline-block;
+    padding: 0 0.06rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    background: #ffd053;
+    margin: 0 0.05rem;
+    color: #000;
+    font-size: 0.16rem;
+}
+
+.tccon .con1 {
+}
+
+.tccon .con2 {
+    display: none;
+}
+
+.tccon .con2 table {
+    width: 96%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tccon .con2 table tr th {
+    border: 1px solid #535353;
+    color: #fff100;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.16rem;
+    font-weight: normal;
+}
+
+.tccon .con2 table tr td {
+    border: 1px solid #535353;
+    color: #fff;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tccon .con2 table tr td a {
+    font-size: 0.16rem;
+    color: #f00;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: rgb(247, 247, 247) url(/web/images/activity/select.png) right center no-repeat;
+    padding-right: 0.47rem;
+    padding-left: 0.24rem;
+    color: #333;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.wrap-form,
+.wrap-form1 {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tctitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tccon .tctitle .showDetails {
+    display: block;
+    font-size: 10px;
+    width: 55.8px;
+    height: 18.4px;
+    border-radius: 12.8px;
+    margin-left: 1.6px;
+    line-height: 18.4px;
+    background: linear-gradient(to top, #b70418, #f91919);
+    color: #ffe400;
+    position: relative;
+    padding-right: 3.6px;
+    font-weight: 400;
+}
+
+.tccon .tctitle .showDetails img {
+    width: 100%;
+}
+
+#query_option-pra {
+    position: relative;
+}
+
+#query_option-pra::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    margin-top: -10px;
+    border-color: #000 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.li2 a.a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
